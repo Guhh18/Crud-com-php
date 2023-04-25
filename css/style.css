@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', Times, serifr;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #92f192;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forms{
+    width: 40rem;
+
+    display: flex;
+    /* overflow: hidden; */
+
+
+}
+
+.forms.cadastroAtivo .forms{
+    margin-right: 50%;
+    background-color: #367e36;
+}
+
+.form{
+    width: 100%;
+    min-width: 40rem;
+    height: 45rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-shadow: 1rem 1rem 2rem  #72c072;
+}
+
+
+.title{
+    font-size: 4rem;
+    margin: 0 0 2rem;
+    font-weight: 600;
+}
+
+
+form{
+    width: 100%;
+    height: auto;
+}
+
+.input-box:last-child{
+    margin: 3rem 0 3rem;
+}
+
+.input-box{
+    width: 100%;
+    height: auto;
+    margin: 0 0 1rem 0;
+
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+input{
+    width: inherit;
+    height: 3.5rem;
+    outline: none;
+    border: none;
+    padding: 0 0rem 0rem 1rem;
+    border: .1rem solid #ccc;
+    border-radius: 1rem;
+}
+
+.password-eye{
+    width: auto;
+    height: auto;
+
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+}
+
+button{
+    width: inherit;
+    height: 3.5rem;
+    border-radius: 1rem;
+
+    outline: none;
+    border: none;
+
+    font-size: 2rem;
+    color: #fff;
+    background-color: #4ec54e;
+
+    box-shadow: 1rem 1rem 1rem #ccc;
+}
+
+button:hover{
+    background-color: #186318;
+}
+
+.cadastro-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cadastro-link{
+    color: #4ec54e;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+.cadastro-link:hover{
+    text-decoration: underline;
+    color: #367e36;
+}
+
+
