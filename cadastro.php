@@ -29,7 +29,7 @@ if (isset($_POST['submit'])) {
 </head>
 
 <body>
-    <main class="container">
+    <main class="container container-sistema">
         <div class="forms">
             <div class="form formulario-cadastro">
                 <div class="title">Cadastro</div>

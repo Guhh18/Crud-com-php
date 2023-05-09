@@ -36,18 +36,19 @@ if (isset($_POST['busca_nome']) != '') {
 </head>
 
 <body>
-    
+
     <header>
         <a href="sair.php" class="sair">Sair</a>
     </header>
 
     <main class="container">
-        <form name="form1" action="sistema.php" method="POST">
-            <input type="text" name="busca_nome">
-            <input type="submit" value="Filtrar">
+        <h1>Listagem de contas</h1>
+        <form class="form-busca" name="form1" action="sistema.php" method="POST">
+            <input type="text" name="busca_nome" placeholder="Busca">
+            <input class="btn_filtro" type="submit" value="Filtrar">
         </form>
 
-        <h1>Listagem de contas</h1>
+
         <table border="1" align="center">
             <thead>
                 <tr>
@@ -84,7 +85,7 @@ if (isset($_POST['busca_nome']) != '') {
 
         </table>
     </main>
-    
+
 
 
 
